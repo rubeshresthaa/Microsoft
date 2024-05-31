@@ -1,0 +1,288 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  line-height: 1.5;
+}
+
+main{
+  padding: 20px 180px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  
+}
+
+.first-nav{
+  display: flex;
+  gap: 20px;
+  
+}
+nav{
+  display: flex;
+  
+  
+}
+.logo{
+  margin-top: 1px;
+}
+.logo img{
+  width: 100px;
+  height: 20px;
+  margin
+}
+.first-nav nav{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+ nav a{
+  text-decoration: none;
+  /* padding: 0 15px; */
+  color: rgb(94, 92, 92);
+  
+}
+a:hover{
+  text-decoration: underline;
+  color:burlywood;
+  text-underline-offset: 10px;
+  
+
+}
+
+.second-nav  nav{
+  display: flex;
+  gap: 15px;
+  
+}
+ i:hover{
+  color: burlywood;
+  text-decoration: underline;
+  cursor: pointer;
+  text-underline-offset: 10px;
+ }
+ /* 2nd Section */
+ .surface{
+  background-image: url(https://i.ibb.co/zGSDGCL/slide1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  margin: 10px 0;
+  display: flex;
+  text-decoration: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+ }
+ .surface h2{
+  
+  padding-top: 150px;
+  /* padding-bottom: 20px; */
+
+ }
+ .surface p{
+  padding: 20px 0;
+
+  
+ }
+ .surface button{
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  
+  
+  background-color: black;
+  color: white;
+  border: none;
+ }
+ .surface button:hover{
+  color: burlywood;
+ }
+ /* 3rd section */
+ .section-third{
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  margin: 20px 0;
+  
+  /* flex-wrap: wrap; */
+ }
+ /* .box{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ } */
+
+ .box img{
+  width: 100%;
+  padding-bottom: 10px;
+ }
+ .box p{
+  padding: 5px 0;
+ }
+ .box a{
+  color: blue;
+  font-weight: bold;
+  padding-top: 5px;
+  /* margin: 0; */
+  text-decoration: none;
+
+ }
+ .box a i{
+  font-size: 10px;
+ }
+
+ /* 4th section */
+
+ .section-fourth{
+  width: 100%;
+  height: 450px;
+  background-image: url(https://i.ibb.co/tBJGPD9/xbox.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 30px;
+ }
+.section-fourth p{
+  padding: 20px 0;
+
+}
+.section-fourth button{
+  height: 40px;
+  width: 110px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+
+/* 5th section */
+.section-fifth{
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr); */
+  /* for responsive */
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+ .bx img{
+  width: 100%;
+ }
+ .bx h3{
+  padding:15px 0;
+ }
+ .bx p{
+  padding-bottom: 10px;
+ }
+ .bx a{
+  padding: 25px 0;
+  color: blue;
+  text-decoration: none;
+ }
+ .last{
+  background-image: url(https://i.ibb.co/72cgtsz/carbon.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 25px;
+  color: white;
+ }
+ .last p{
+  padding: 15px 0;
+ }
+ .last button{
+  width: 120px;
+  height: 40px;
+  font-size: bold;
+  border: none;
+  cursor: pointer;
+ }
+ .bx a:hover{
+  color: burlywood;
+
+ }
+ .drag:hover{
+  margin-right: 5px;
+ }
+ 
+
+  /* 6th section */
+.follow{
+  display: flex;
+  gap: 10px;
+  margin:15px 0
+}
+.follow .bx p{
+  margin: 5px 5px;
+}
+.bx1 img{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  
+}
+footer{
+  padding: 25px 200px;
+  background-color: #F2F2F2;
+
+}
+
+footer .box1{
+ 
+  display: grid;
+  /* grid-template-columns: repeat(6,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  gap: 50px;
+  
+}
+
+.bx h3{
+  color: #616161;
+}
+.bx p{
+  font-size: 12px;
+}
+ footer .box2{
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+  font-size: 12px;
+  margin: 10px 0;
+  
+ }
+
+ .box2 .icon{
+  display: flex;
+  gap: 10px;
+  
+
+ }
+ .box2 p{
+  text-align: end;
+ }
+ .icon i{
+  font-size: 20px;
+  color: #616161;
+
+ }
+ 
+ 
+ 
+ 
